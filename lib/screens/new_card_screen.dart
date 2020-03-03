@@ -29,7 +29,6 @@ class _NewCardScreenState extends State<NewCardScreen> {
   final _cardFocusNode3 = FocusNode();
   final _cardFocusNode4 = FocusNode();
   final _cardFocusNode5 = FocusNode();
-  final _cardFocusNode6 = FocusNode();
 
   final _form = GlobalKey<FormState>();
 
@@ -51,6 +50,12 @@ class _NewCardScreenState extends State<NewCardScreen> {
 
   void _saveCard() {
     _form.currentState.save();
+    print(_savedCard.word);
+    print(_savedCard.word);
+    print(_savedCard.word);
+    print(_savedCard.word);
+    print(_savedCard.word);
+    print(_savedCard.word);
   }
 
   @override
