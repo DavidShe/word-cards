@@ -51,11 +51,11 @@ class _NewCardScreenState extends State<NewCardScreen> {
   void _saveCard() {
     _form.currentState.save();
     print(_savedCard.word);
-    print(_savedCard.word);
-    print(_savedCard.word);
-    print(_savedCard.word);
-    print(_savedCard.word);
-    print(_savedCard.word);
+    print(_savedCard.t1);
+    print(_savedCard.t2);
+    print(_savedCard.t3);
+    print(_savedCard.t4);
+    print(_savedCard.t5);
   }
 
   @override
